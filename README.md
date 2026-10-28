@@ -2,6 +2,8 @@
 
 > **Cross-Border E-Commerce Deep Research Agent**
 > 基于 **LangGraph 状态机** 与 **NVIDIA NIM (Nemotron 550B)** 大模型，专为出海电商卖家、选品操盘手与供应链投资人打造的深度商业调研智能体。
+> 
+> 🌐 **在线体验 (Live Demo)**: [https://cross-border-e-commerce-2kxx7hfbiertguvimg48uy.streamlit.app/](https://cross-border-e-commerce-2kxx7hfbiertguvimg48uy.streamlit.app/)
 
 ---
 
