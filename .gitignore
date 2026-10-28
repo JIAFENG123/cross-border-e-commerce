@@ -1,0 +1,25 @@
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

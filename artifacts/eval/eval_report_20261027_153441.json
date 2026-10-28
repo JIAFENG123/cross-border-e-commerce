@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-10-27 15:34:41",
+  "mode": "state",
+  "total_cases": 1,
+  "passed_cases": 1,
+  "pass_rate_pct": 100.0,
+  "avg_overall_score": 99.0,
+  "math_integrity_rate_pct": 100.0,
+  "fba_accuracy_rate_pct": 100.0,
+  "avg_voc_recall_pct": 100.0,
+  "avg_judge_score_pct": 95.0,
+  "avg_latency_seconds": 0.05,
+  "results": [
+    {
+      "case_id": "headphone_sony_wh_ch720n",
+      "case_name": "Sony WH-CH720N 无线主动降噪头戴耳机 (标杆标品)",
+      "query": "B0BS1QCFHX",
+      "mode": "state",
+      "passed": true,
+      "overall_score": 99.0,
+      "latency_seconds": 0.05,
+      "math_metric": {
+        "metric_name": "financial_math_integrity",
+        "passed": true,
+        "score": 1.0,
+        "details": "All mathematical equations and accounting balances verified.",
+        "metadata": {
+          "landed_error": 0.0,
+          "operating_error": 0.0,
+          "profit_error": 0.01,
+          "margin_error": 0.02
+        }
+      },
+      "fba_metric": {
+        "metric_name": "fba_tier_classification",
+        "passed": true,
+        "score": 1.0,
+        "details": "Target: 'Large Standard' | Assigned: 'Large Standard'",
+        "metadata": {
+          "expected": "Large Standard",
+          "assigned": "Large Standard"
+        }
+      },
+      "structure_metric": {
+        "metric_name": "structural_integrity",
+        "passed": true,
+        "score": 1.0,
+        "details": "Structural schema and Markdown GFM density complete.",
+        "metadata": {
+          "competitors_found": 4,
+          "voc_defects_found": 3,
+          "report_characters": 2001,
+          "has_markdown_tables": true
+        }
+      },
+      "voc_metric": {
+        "metric_name": "voc_ground_truth_recall",
+        "passed": true,
+        "score": 1.0,
+        "details": "Recalled 3/3 themes: [头梁伸缩转轴 (Hinge), 前馈降噪麦克风 (ANC Mic), 蛋白皮耳罩 (Earpads)]. Missed: []",
+        "metadata": {
+          "recalled_themes": [
+            "头梁伸缩转轴 (Hinge)",
+            "前馈降噪麦克风 (ANC Mic)",
+            "蛋白皮耳罩 (Earpads)"
+          ],
+          "missed_themes": [],
+          "recall_percentage": 100.0
+        }
+      },
+      "judge_result": {
+        "data_consistency_score": 5,
+        "actionability_score": 5,
+        "risk_rigor_score": 4,
+        "executive_clarity_score": 5,
+        "composite_score_pct": 95.0,
+        "critique": "报告数据前后一致，财务模型自洽，工程方案细化到材料编号与工艺要求，结构清晰，决策明确。风险章节虽覆盖退货、IP 与仓储费用，但缺少关税波动、供应链断供及汇率风险的量化评估，建议补充相应情景分析并给出对应的缓冲措施。"
+      },
+      "diagnostic_summary": "[PASS] Score: 99.0/100 | Math: OK | FBA Tier: OK | VOC Recall: 100.0% | Judge: 95.0%"
+    }
+  ]
+}

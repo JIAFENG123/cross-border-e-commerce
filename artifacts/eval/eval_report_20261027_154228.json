@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-10-27 15:42:28",
+  "mode": "state",
+  "total_cases": 3,
+  "passed_cases": 3,
+  "pass_rate_pct": 100.0,
+  "avg_overall_score": 90.0,
+  "math_integrity_rate_pct": 100.0,
+  "fba_accuracy_rate_pct": 100.0,
+  "avg_voc_recall_pct": 100.0,
+  "avg_judge_score_pct": 53.3,
+  "avg_latency_seconds": 0.05,
+  "results": [
+    {
+      "case_id": "headphone_sony_wh_ch720n",
+      "case_name": "Sony WH-CH720N 无线主动降噪头戴耳机 (标杆标品)",
+      "query": "B0BS1QCFHX",
+      "mode": "state",
+      "passed": true,
+      "overall_score": 98.0,
+      "latency_seconds": 0.05,
+      "math_metric": {
+        "metric_name": "financial_math_integrity",
+        "passed": true,
+        "score": 1.0,
+        "details": "All mathematical equations and accounting balances verified.",
+        "metadata": {
+          "landed_error": 0.0,
+          "operating_error": 0.0,
+          "profit_error": 0.01,
+          "margin_error": 0.02
+        }
+      },
+      "fba_metric": {
+        "metric_name": "fba_tier_classification",
+        "passed": true,
+        "score": 1.0,
+        "details": "Target: 'Large Standard' | Assigned: 'Large Standard'",
+        "metadata": {
+          "expected": "Large Standard",
+          "assigned": "Large Standard"
+        }
+      },
+      "structure_metric": {
+        "metric_name": "structural_integrity",
+        "passed": true,
+        "score": 1.0,
+        "details": "Structural schema and Markdown GFM density complete.",
+        "metadata": {
+          "competitors_found": 4,
+          "voc_defects_found": 3,
+          "report_characters": 2001,
+          "has_markdown_tables": true
+        }
+      },
+      "voc_metric": {
+        "metric_name": "voc_ground_truth_recall",
+        "passed": true,
+        "score": 1.0,
+        "details": "Recalled 3/3 themes: [头梁伸缩转轴 (Hinge), 前馈降噪麦克风 (ANC Mic), 蛋白皮耳罩 (Earpads)]. Missed: []",
+        "metadata": {
+          "recalled_themes": [
+            "头梁伸缩转轴 (Hinge)",
+            "前馈降噪麦克风 (ANC Mic)",
+            "蛋白皮耳罩 (Earpads)"
+          ],
+          "missed_themes": [],
+          "recall_percentage": 100.0
+        }
+      },
+      "judge_result": {
+        "data_consistency_score": 4,
+        "actionability_score": 5,
+        "risk_rigor_score": 4,
+        "executive_clarity_score": 5,
+        "composite_score_pct": 90.0,
+        "critique": "报告数据基本吻合，净利计算略缺细项说明；供应链改模方案详实，可操作性强；风险章节覆盖退货、合规等关键点，但可补充关税波动、供应链断供及汇率风险；整体结构清晰，Markdown 表格规范，立项结论明确。建议补全成本细分说明并加入更全面的宏观风险评估。"
+      },
+      "diagnostic_summary": "[PASS] Score: 98.0/100 | Math: OK | FBA Tier: OK | VOC Recall: 100.0% | Judge: 90.0%"
+    },
+    {
+      "case_id": "outdoor_portable_espresso_maker",
+      "case_name": "便携式露营意式浓缩咖啡机 (高压加热小家电)",
+      "query": "Portable Camping Espresso Maker",
+      "mode": "state",
+      "passed": true,
+      "overall_score": 85.0,
+      "latency_seconds": 0.05,
+      "math_metric": {
+        "metric_name": "financial_math_integrity",
+        "passed": true,
+        "score": 1.0,
+        "details": "All mathematical equations and accounting balances verified.",
+        "metadata": {
+          "landed_error": 0.0,
+          "operating_error": 0.0,
+          "profit_error": 0.01,
+          "margin_error": 0.02
+        }
+      },
+      "fba_metric": {
+        "metric_name": "fba_tier_classification",
+        "passed": true,
+        "score": 1.0,
+        "details": "Target: 'Large Standard' | Assigned: 'Large Standard'",
+        "metadata": {
+          "expected": "Large Standard",
+          "assigned": "Large Standard"
+        }
+      },
+      "structure_metric": {
+        "metric_name": "structural_integrity",
+        "passed": true,
+        "score": 0.9,
+        "details": "Structural schema and Markdown GFM density complete.",
+        "metadata": {
+          "competitors_found": 3,
+          "voc_defects_found": 3,
+          "report_characters": 131,
+          "has_markdown_tables": true
+        }
+      },
+      "voc_metric": {
+        "metric_name": "voc_ground_truth_recall",
+        "passed": true,
+        "score": 1.0,
+        "details": "Recalled 3/3 themes: [高压密封圈 (O-ring Seal), 锂电池与自加热模块 (Battery & Heater), 手柄按压机械结构 (Piston Pump)]. Missed: []",
+        "metadata": {
+          "recalled_themes": [
+            "高压密封圈 (O-ring Seal)",
+            "锂电池与自加热模块 (Battery & Heater)",
+            "手柄按压机械结构 (Piston Pump)"
+          ],
+          "missed_themes": [],
+          "recall_percentage": 100.0
+        }
+      },
+      "judge_result": {
+        "data_consistency_score": 2,
+        "actionability_score": 1,
+        "risk_rigor_score": 1,
+        "executive_clarity_score": 2,
+        "composite_score_pct": 30.0,
+        "critique": "财务数据前后不符，净利率与落地成本、净利润计算不匹配；缺乏针对密封圈、电池、活塞问题的材料规格、模具公差等可执行方案；未披露退货、关税、专利或供应链中断等关键风险；报告结构虽有摘要和表格，但内容空洞、缺少详细数据表、引用和风险评估，决策依据不足。建议补全财务核算、提供工程改进细节、加入风险矩阵并完善 markdown 格式。"
+      },
+      "diagnostic_summary": "[PASS] Score: 85.0/100 | Math: OK | FBA Tier: OK | VOC Recall: 100.0% | Judge: 30.0%"
+    },
+    {
+      "case_id": "furniture_mesh_office_chair",
+      "case_name": "人体工学网布办公椅 (抛重型大件家具)",
+      "query": "Ergonomic Mesh Office Chair",
+      "mode": "state",
+      "passed": true,
+      "overall_score": 87.0,
+      "latency_seconds": 0.05,
+      "math_metric": {
+        "metric_name": "financial_math_integrity",
+        "passed": true,
+        "score": 1.0,
+        "details": "All mathematical equations and accounting balances verified.",
+        "metadata": {
+          "landed_error": 0.0,
+          "operating_error": 0.0,
+          "profit_error": 0.01,
+          "margin_error": 0.0
+        }
+      },
+      "fba_metric": {
+        "metric_name": "fba_tier_classification",
+        "passed": true,
+        "score": 1.0,
+        "details": "Target: 'Small Oversize / Bulky' | Assigned: 'Small Oversize / Bulky'",
+        "metadata": {
+          "expected": "Small Oversize / Bulky",
+          "assigned": "Small Oversize / Bulky"
+        }
+      },
+      "structure_metric": {
+        "metric_name": "structural_integrity",
+        "passed": true,
+        "score": 0.9,
+        "details": "Structural schema and Markdown GFM density complete.",
+        "metadata": {
+          "competitors_found": 3,
+          "voc_defects_found": 3,
+          "report_characters": 142,
+          "has_markdown_tables": true
+        }
+      },
+      "voc_metric": {
+        "metric_name": "voc_ground_truth_recall",
+        "passed": true,
+        "score": 1.0,
+        "details": "Recalled 3/3 themes: [瓦楞包装箱 (Outer Carton), 气压升降棒 (Gas Lift Cylinder), 坐垫网布与前沿骨架 (Seat Mesh Frame)]. Missed: []",
+        "metadata": {
+          "recalled_themes": [
+            "瓦楞包装箱 (Outer Carton)",
+            "气压升降棒 (Gas Lift Cylinder)",
+            "坐垫网布与前沿骨架 (Seat Mesh Frame)"
+          ],
+          "missed_themes": [],
+          "recall_percentage": 100.0
+        }
+      },
+      "judge_result": {
+        "data_consistency_score": 2,
+        "actionability_score": 1,
+        "risk_rigor_score": 2,
+        "executive_clarity_score": 3,
+        "composite_score_pct": 40.0,
+        "critique": "报告财务数据自相矛盾（净利润/落地成本对应的利润率≈2.6%≠标示的1.3%），缺乏材料、模具公差等可执行方案，仅列出表面缺陷，未深入分析关税、退货、专利等关键风险。结构虽有Markdown表格，但内容空洞，建议补全财务核算、提供具体工艺改进细节、系统化风险矩阵，并给出明确的立项建议。"
+      },
+      "diagnostic_summary": "[PASS] Score: 87.0/100 | Math: OK | FBA Tier: OK | VOC Recall: 100.0% | Judge: 40.0%"
+    }
+  ]
+}

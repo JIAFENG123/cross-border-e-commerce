@@ -1,0 +1,83 @@
+[
+  {
+    "id": "case_audio_anc_headphone",
+    "name": "无线主动降噪头戴耳机 (消费电子高频标杆)",
+    "query": "B0BS1QCFHX",
+    "target_market": "US",
+    "expected_category": "Over-Ear Headphones",
+    "ground_truth": {
+      "target_brand": "Sony",
+      "expected_competitor_keywords": ["headphone", "soundcore", "jbl", "sony", "1more", "anc"],
+      "expected_price_band_usd": [35.0, 85.0],
+      "expected_fba_tier": "Large standard-size",
+      "critical_voc_defects": [
+        "主动降噪底噪/风噪抑制弱",
+        "头梁伸缩卡扣断裂/铰链异响",
+        "耳罩蛋白皮透气性差且易掉皮脱落"
+      ],
+      "factory_actionable_solutions": [
+        "优化前馈腔体硅胶密封棉阻隔风噪",
+        "头梁内部增设 65Mn 弹簧钢或锌合金冲压补强片",
+        "耳罩升级为记忆海绵复合凉感透气网布"
+      ],
+      "financial_thresholds": {
+        "sourcing_cost_usd_max": 25.0,
+        "min_net_margin_percentage": 15.0
+      }
+    }
+  },
+  {
+    "id": "case_camping_espresso_maker",
+    "name": "户外便携浓缩咖啡机 (中小型户外装备)",
+    "query": "Portable Camping Espresso Maker",
+    "target_market": "US",
+    "expected_category": "Manual Espresso Machines",
+    "ground_truth": {
+      "target_brand": "Generic/Niche",
+      "expected_competitor_keywords": ["espresso", "coffee", "wacaco", "staresso", "portable", "manual"],
+      "expected_price_band_usd": [39.0, 79.0],
+      "expected_fba_tier": "Large standard-size",
+      "critical_voc_defects": [
+        "高压萃取时硅胶密封圈渗漏烫伤",
+        "活塞泵行程卡顿及单向阀泄压不良",
+        "水仓散热过快导致水温不足影响油脂萃取"
+      ],
+      "factory_actionable_solutions": [
+        "升级食品级耐高温氟橡胶(FKM)双层密封圈",
+        "优化 POM 活塞注塑公差，增设自动过压泄压阀门",
+        "内胆采用双层 304 不锈钢真空隔热结构"
+      ],
+      "financial_thresholds": {
+        "sourcing_cost_usd_max": 18.0,
+        "min_net_margin_percentage": 18.0
+      }
+    }
+  },
+  {
+    "id": "case_ergonomic_office_chair",
+    "name": "人体工学电脑网椅 (大件大尺寸抛货典型)",
+    "query": "Ergonomic Mesh Office Chair",
+    "target_market": "US",
+    "expected_category": "Home Office Desk Chairs",
+    "ground_truth": {
+      "target_brand": "Generic/Niche",
+      "expected_competitor_keywords": ["chair", "ergonomic", "mesh", "desk", "sihoo", "hbada"],
+      "expected_price_band_usd": [99.0, 220.0],
+      "expected_fba_tier": "Small oversize",
+      "critical_voc_defects": [
+        "腰部支撑偏硬或长期使用自适应机构滑脱",
+        "气压棒沉降失灵或底盘后仰异响",
+        "外包装箱体积重过大产生巨额 FBA 附加费与破损"
+      ],
+      "factory_actionable_solutions": [
+        "采用动态弹簧自适应双背分离腰托",
+        "采用 BIFMA/TUV 认证 4 级加厚防爆气压棒",
+        "采用分体模块化高密度平铺包装，严控单边尺寸降低体积重"
+      ],
+      "financial_thresholds": {
+        "sourcing_cost_usd_max": 50.0,
+        "min_net_margin_percentage": 10.0
+      }
+    }
+  }
+]
